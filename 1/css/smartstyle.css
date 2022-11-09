@@ -1,0 +1,30 @@
+/*--スマホ用--*/
+@media screen and (max-width: 479px) {
+    .header, .main, .left, .right, .footer {
+        width: 200px;
+    }
+    .header {
+        height: 200px;
+    }
+    .container-a {
+       width: 60px;
+       height: 160px;
+       flex-direction: column;
+       position: absolute;
+       right: 70px;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .left {
+        height: 100px;
+    }
+    .right {
+        height: 210px;
+    }
+    .container-b {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+}
