@@ -1,0 +1,44 @@
+/*--タブレット用--*/
+@media screen and (max-width: 767px) {
+    .header, .footer {
+        width: 300px;
+    }
+    .left {
+        width: 100px;
+    }
+    .right {
+        width: 200px;
+    }
+    .box-a {
+        width: 75px;
+    }
+    .box-b {
+        width: 125px;
+    }
+    .box-c {
+        width: 125px;
+    }
+    .box-d {
+        width: 200px;
+    }
+}
+
+
+/*--スマホ用--*/
+@media screen and (max-width: 479px) {
+    .header, .left, .right, .box-a, .box-b, .box-c, .box-d, .footer {
+        width: 150px;
+    }
+    .left {
+        height: 100px;
+        float: none;
+    }
+    .right {
+        height: 350px;
+        float: none;
+    }
+    .box-a {
+        height: 100px;
+        float: none;
+    }
+}
